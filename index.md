@@ -18,6 +18,16 @@ Coming soon!
 - [Ligero [AHIV17]](https://acmccs.github.io/papers/p2087-amesA.pdf)
 - [Hyrax [WTSTW17]](https://eprint.iacr.org/2017/1132.pdf)
 
+## Implementations
+
+- [libsnark](https://github.com/scipr-lab/libsnark)
+- [bellman](https://github.com/ebfull/bellman/)
+  - Implements Groth16
+- [ZKBoo](https://github.com/Sobuno/ZKBoo)
+- Picnic
+  - [Reference implementation](https://github.com/Microsoft/Picnic)
+  - [Optimized implementation](https://github.com/IAIK/Picnic)
+
 ## So are they fast yet?
 
 Stay tuned! 😁
