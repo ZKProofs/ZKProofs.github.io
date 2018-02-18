@@ -17,4 +17,4 @@ Coming soon!
 
 ## So are they fast yet?
 
-Stay tuned! :smile:
+Stay tuned! 😁
