@@ -1,3 +1,3 @@
-## ZKProofs
+## Science!
 
 Coming soon!
