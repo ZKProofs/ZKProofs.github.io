@@ -14,6 +14,7 @@ Coming soon!
 - [ZKBoo](https://eprint.iacr.org/2016/163.pdf)
 - [Groth16](https://eprint.iacr.org/2016/260.pdf)
 - [ZKB++ / Picnic](https://eprint.iacr.org/2017/279.pdf)
+- [Hyrax](https://eprint.iacr.org/2017/1132.pdf)
 
 ## So are they fast yet?
 
