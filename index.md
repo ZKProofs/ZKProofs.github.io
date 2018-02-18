@@ -9,12 +9,14 @@ Coming soon!
 
 ## Zero-knowledge proving systems
 
-- [Pinocchio](https://eprint.iacr.org/2013/279.pdf)
-- [Ligero](https://acmccs.github.io/papers/p2087-amesA.pdf)
-- [ZKBoo](https://eprint.iacr.org/2016/163.pdf)
+- [Pinocchio (PGHR13)](https://eprint.iacr.org/2013/279.pdf)
+- [BCTV14](https://eprint.iacr.org/2014/595)
+- [CTV15](https://eprint.iacr.org/2015/377)
+- [ZKBoo (GMO16)](https://eprint.iacr.org/2016/163.pdf)
 - [Groth16](https://eprint.iacr.org/2016/260.pdf)
-- [ZKB++ / Picnic](https://eprint.iacr.org/2017/279.pdf)
-- [Hyrax](https://eprint.iacr.org/2017/1132.pdf)
+- [ZKB++ / Picnic (CDGORRSZ17)](https://eprint.iacr.org/2017/279.pdf)
+- [Ligero (AHIV17)](https://acmccs.github.io/papers/p2087-amesA.pdf)
+- [Hyrax (WTSTW17)](https://eprint.iacr.org/2017/1132.pdf)
 
 ## So are they fast yet?
 
