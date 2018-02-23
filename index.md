@@ -17,7 +17,7 @@ Coming soon!
 - [ZKB++ / Picnic [CDGORRSZ17]](https://eprint.iacr.org/2017/279.pdf)
 - [Ligero [AHIV17]](https://acmccs.github.io/papers/p2087-amesA.pdf)
 - [Hyrax [WTSTW17]](https://eprint.iacr.org/2017/1132.pdf)
-- [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf)
+- [Bootle proofs [BCC+16]](https://eprint.iacr.org/2016/263.pdf)
 
 ## Implementations
 
@@ -31,9 +31,9 @@ Coming soon!
 - Picnic
   - [Reference implementation](https://github.com/Microsoft/Picnic)
   - [Optimized implementation](https://github.com/IAIK/Picnic)
-- Bulletproofs
-  - [BulletProofLib](https://github.com/bbuenz/BulletProofLib)
-  - [secp256k1-zkp (experimental)](https://github.com/ElementsProject/secp256k1-zkp/pull/16)
+- Bootle proofs
+  - [BulletProofLib](https://github.com/bbuenz/BulletProofLib) (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
+  - [secp256k1-zkp (experimental)](https://github.com/ElementsProject/secp256k1-zkp/pull/16) (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
 
 ## So are they fast yet?
 
