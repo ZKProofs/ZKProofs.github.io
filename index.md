@@ -1,8 +1,8 @@
 # Science!
 
-![](http://textfiles.com/underconstruction/HeHeartlandPark5787imagesConstruction1.gif)
-[![](http://textfiles.com/underconstruction/ArArea51Station9771rulersconstructionconstruction_wide.gif)](http://textfiles.com/underconstruction/)
-[![](http://textfiles.com/underconstruction/ArArea51Shadowlands2297ST-underconstruction_anm.gif)](https://en.wikipedia.org/wiki/History_of_cryptography#Modern_cryptography)
+![](https://textfiles.com/underconstruction/HeHeartlandPark5787imagesConstruction1.gif)
+[![](https://textfiles.com/underconstruction/ArArea51Station9771rulersconstructionconstruction_wide.gif)](http://textfiles.com/underconstruction/)
+[![](https://textfiles.com/underconstruction/ArArea51Shadowlands2297ST-underconstruction_anm.gif)](https://en.wikipedia.org/wiki/History_of_cryptography#Modern_cryptography)
 
 ## What is a zero-knowledge proof?
 
