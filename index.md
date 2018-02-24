@@ -41,3 +41,7 @@
 ## So are they fast yet?
 
 Stay tuned! 😁
+
+## I'd like to add another proving system / write a short explainer / remove those awful 90's images
+
+You can make a pull request [here](https://github.com/ZKProofs/ZKProofs.github.io)!
