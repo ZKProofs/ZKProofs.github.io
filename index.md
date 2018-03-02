@@ -37,6 +37,8 @@
 - Picnic
   - [Reference implementation](https://github.com/Microsoft/Picnic)
   - [Optimized implementation](https://github.com/IAIK/Picnic)
+- [libSTARK](https://github.com/elibensasson/libSTARK)
+  - zk-STARKs
 
 ## So are they fast yet?
 
