@@ -39,6 +39,11 @@
   - [Optimized implementation](https://github.com/IAIK/Picnic)
 - [libSTARK](https://github.com/elibensasson/libSTARK)
   - zk-STARKs
+- [emmy](https://github.com/xlab-si/emmy)
+  - ZKP primitives for [Camenisch-Lysyanskaya anonymous credentials](https://eprint.iacr.org/2001/019.pdf)
+  - Camenisch-Lysyanskaya anonymous credentials (work in progress)
+  - client-server (prover-verifier) communication based on Protobuffers and gRPC
+  - TODO: pairing-based schemes for anonymous credentials
 
 ## So are they fast yet?
 
