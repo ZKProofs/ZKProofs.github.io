@@ -22,7 +22,7 @@
 - [Hyrax [WTSTW17]](https://eprint.iacr.org/2017/1132.pdf)
 - [zk-STARKs [BBHR18]](https://eprint.iacr.org/2018/046)
 
-## Implementations
+## Implementations of proving systems
 
 - [libsnark](https://github.com/scipr-lab/libsnark)
   - Pinocchio (implements [[BCTV14a]](http://eprint.iacr.org/2013/879) approach)
@@ -44,6 +44,17 @@
   - Camenisch-Lysyanskaya anonymous credentials (work in progress)
   - client-server (prover-verifier) communication based on Protobuffers and gRPC
   - TODO: pairing-based schemes for anonymous credentials
+
+## Example circuits
+
+- [Zcash Sprout](https://github.com/zcash/zips/blob/master/protocol/protocol.pdf)
+  - Based on [Zerocash [BCGGMTV14]](https://www.ieee-security.org/TC/SP2014/papers/Zerocash_c_DecentralizedAnonymousPaymentsfromBitcoin.pdf)
+  - [C++ implementation over BN128 using libsnark](https://github.com/zcash/zcash/tree/master/src/zcash/circuit)
+  - [Rust implementation over BLS12-381 using bellman](https://github.com/zcash-hackworks/sapling-crypto/pull/54)
+- [ANONIZE [HMP15]](https://eprint.iacr.org/2015/681.pdf)
+  - [Mobile applications (closed-source)](https://anonize.org/)
+- [Zcash Sapling (in-progress)](https://github.com/zcash/zips/blob/master/protocol/sapling.pdf)
+  - [Rust implementation over BLS12-381 using bellman](https://github.com/zcash-hackworks/sapling-crypto)
 
 ## So are they fast yet?
 
