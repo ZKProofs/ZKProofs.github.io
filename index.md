@@ -45,6 +45,13 @@
   - client-server (prover-verifier) communication based on Protobuffers and gRPC
   - TODO: pairing-based schemes for anonymous credentials
 
+## DSLs for writing circuits
+
+- [ZoKrates](https://github.com/JacobEberhardt/ZoKrates)
+  - Toolbox for zk-SNARKs on Ethereum, backed by libsnark
+- [Snarky](https://github.com/o1-labs/snarky)
+  - OCaml front-end for writing R1CS SNARKs, currently backed by libsnark
+
 ## Example circuits
 
 - [Zcash Sprout](https://github.com/zcash/zips/blob/master/protocol/protocol.pdf)
