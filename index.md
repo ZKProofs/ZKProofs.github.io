@@ -21,6 +21,7 @@
 - [Ligero [AHIV17]](https://acmccs.github.io/papers/p2087-amesA.pdf)
 - [Hyrax [WTSTW17]](https://eprint.iacr.org/2017/1132.pdf)
 - [zk-STARKs [BBHR18]](https://eprint.iacr.org/2018/046)
+- [Updatable Universal CRSs [GKMMM18]](https://eprint.iacr.org/2018/280)
 
 ## Implementations of proving systems
 
