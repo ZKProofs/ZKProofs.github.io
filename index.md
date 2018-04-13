@@ -25,11 +25,11 @@
 
 ## Implementations of proving systems
 
-- [libsnark](https://github.com/scipr-lab/libsnark)
+- [libsnark](https://github.com/scipr-lab/libsnark) - C++ library for zk-SNARK proofs
   - Pinocchio (implements [[BCTV14a]](http://eprint.iacr.org/2013/879) approach)
   - [BCTV14b]
   - [CTV15]
-- [bellman](https://github.com/ebfull/bellman/)
+- [bellman](https://github.com/ebfull/bellman/) - Rust library for zk-SNARK proofs
   - [Groth16]
 - [ZKBoo](https://github.com/Sobuno/ZKBoo)
 - Bootle proofs
@@ -45,16 +45,12 @@
   - ZKP primitives for [Camenisch-Lysyanskaya anonymous credentials](https://eprint.iacr.org/2001/019.pdf)
   - Camenisch-Lysyanskaya anonymous credentials (work in progress)
   - client-server (prover-verifier) communication based on Protobuffers and gRPC
-  - TODO: pairing-based schemes for anonymous credentials
 
 ## DSLs for writing circuits
 
-- [jsnark](https://github.com/akosba/jsnark)
-  - Java library for building circuits for preprocessing zk-SNARKs, backed by libsnark
-- [ZoKrates](https://github.com/JacobEberhardt/ZoKrates)
-  - Toolbox for zk-SNARKs on Ethereum, backed by libsnark
-- [Snarky](https://github.com/o1-labs/snarky)
-  - OCaml front-end for writing R1CS SNARKs, currently backed by libsnark
+- [jsnark](https://github.com/akosba/jsnark) - Java library for building circuits for preprocessing zk-SNARKs, backed by libsnark
+- [ZoKrates](https://github.com/JacobEberhardt/ZoKrates) - Toolbox for zk-SNARKs on Ethereum, backed by libsnark
+- [Snarky](https://github.com/o1-labs/snarky) - OCaml front-end for writing R1CS SNARKs, currently backed by libsnark
 
 ## Example circuits
 
