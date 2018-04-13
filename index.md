@@ -49,6 +49,8 @@
 
 ## DSLs for writing circuits
 
+- [jsnark](https://github.com/akosba/jsnark)
+  - Java library for building circuits for preprocessing zk-SNARKs, backed by libsnark
 - [ZoKrates](https://github.com/JacobEberhardt/ZoKrates)
   - Toolbox for zk-SNARKs on Ethereum, backed by libsnark
 - [Snarky](https://github.com/o1-labs/snarky)
