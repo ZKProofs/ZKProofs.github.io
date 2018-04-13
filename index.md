@@ -34,7 +34,8 @@
 - [ZKBoo](https://github.com/Sobuno/ZKBoo)
 - Bootle proofs
   - [BulletProofLib](https://github.com/bbuenz/BulletProofLib) (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
-  - [secp256k1-zkp (experimental)](https://github.com/ElementsProject/secp256k1-zkp/pull/16) (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
+  - [secp256k1-zkp (experimental)](https://github.com/ElementsProject/secp256k1-zkp/pull/16) (implements Bulletproofs [BBBPWM17] approach)
+  - [ristretto-bulletproofs](https://github.com/chain/ristretto-bulletproofs/) (implements Bulletproofs [BBBPWM17] approach using Ristretto on Curve25519) ([notes](https://doc-internal.dalek.rs/ristretto_bulletproofs/notes/index.html))
 - Picnic
   - [Reference implementation](https://github.com/Microsoft/Picnic)
   - [Optimized implementation](https://github.com/IAIK/Picnic)
