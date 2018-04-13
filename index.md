@@ -61,7 +61,7 @@
 - [Zcash Sprout](https://github.com/zcash/zips/blob/master/protocol/protocol.pdf)
   - Based on [Zerocash [BCGGMTV14]](https://www.ieee-security.org/TC/SP2014/papers/Zerocash_c_DecentralizedAnonymousPaymentsfromBitcoin.pdf)
   - [C++ implementation over BN128 using libsnark](https://github.com/zcash/zcash/tree/master/src/zcash/circuit)
-  - [Rust implementation over BLS12-381 using bellman](https://github.com/zcash-hackworks/sapling-crypto/pull/54)
+  - [Rust implementation over BLS12-381 using bellman](https://github.com/zcash-hackworks/sapling-crypto/tree/master/src/circuit/sprout)
 - [ANONIZE [HMP15]](https://eprint.iacr.org/2015/681.pdf)
   - [Mobile applications (closed-source)](https://anonize.org/)
 - [Zcash Sapling (in-progress)](https://github.com/zcash/zips/blob/master/protocol/sapling.pdf)
