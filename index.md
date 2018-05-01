@@ -13,8 +13,10 @@
 
 ## Zero-knowledge proving systems
 
-- [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
+- [[GGPR12]](https://eprint.iacr.org/2012/215)
+  - [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
   - [[BCGTV13]](https://eprint.iacr.org/2013/507)
+  - [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976)
   - [[BCTV14a]](http://eprint.iacr.org/2013/879)
 - [[BCTV14b]](https://eprint.iacr.org/2014/595)
 - [[CTV15]](https://eprint.iacr.org/2015/377)
@@ -50,9 +52,11 @@
   - ZKP primitives for [Camenisch-Lysyanskaya anonymous credentials](https://eprint.iacr.org/2001/019.pdf)
   - Camenisch-Lysyanskaya anonymous credentials (work in progress)
   - client-server (prover-verifier) communication based on Protobuffers and gRPC
+- [VC](https://archive.codeplex.com/?p=vc) implementation accompanying the [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf) and [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976) papers
 
-## DSLs for writing circuits
+## Low-level libraries/languages for writing circuits
 
+- [libsnark](https://github.com/scipr-lab/libsnark)'s gadgetlib1 and gadgetlib2 - C++ libraries for for building circuits for preprocessing zk-SNARKs
 - [jsnark](https://github.com/akosba/jsnark) - Java library for building circuits for preprocessing zk-SNARKs, backed by libsnark
 - [ZoKrates](https://github.com/JacobEberhardt/ZoKrates) - Toolbox for zk-SNARKs on Ethereum, backed by libsnark
 - [Snarky](https://github.com/o1-labs/snarky) - OCaml front-end for writing R1CS SNARKs, currently backed by libsnark
