@@ -12,6 +12,7 @@
 ## Zero-knowledge proving systems
 
 - [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
+  - [[BCGTV13]](https://eprint.iacr.org/2013/507)
   - [[BCTV14a]](http://eprint.iacr.org/2013/879)
 - [[BCTV14b]](https://eprint.iacr.org/2014/595)
 - [[CTV15]](https://eprint.iacr.org/2015/377)
@@ -53,6 +54,17 @@
 - [jsnark](https://github.com/akosba/jsnark) - Java library for building circuits for preprocessing zk-SNARKs, backed by libsnark
 - [ZoKrates](https://github.com/JacobEberhardt/ZoKrates) - Toolbox for zk-SNARKs on Ethereum, backed by libsnark
 - [Snarky](https://github.com/o1-labs/snarky) - OCaml front-end for writing R1CS SNARKs, currently backed by libsnark
+
+## General-purpose compilers from high-level languages
+- [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
+- [Geppetto (CFHKKNPZ14)](https://eprint.iacr.org/2014/976)
+- [TinyRAM ([BCGTV13])](https://eprint.iacr.org/2013/507), [vnTinyRAM ([BCTV14a])](http://eprint.iacr.org/2013/879) and [scalable TinyRAM ([BCTV14b])](https://eprint.iacr.org/2014/595)
+- [C0C0 [KZMQCPPSS15]](https://eprint.iacr.org/2015/1093)
+- [xJsnark [KPS18]](https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a543.pdf)
+- Pantry [add ref]
+- Buffet [add ref]
+- Pequin [add ref]
+
 
 ## Example circuits
 
