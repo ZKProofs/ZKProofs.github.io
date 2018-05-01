@@ -12,12 +12,13 @@
 ## Zero-knowledge proving systems
 
 - [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
+  - [[BCTV14a]](http://eprint.iacr.org/2013/879)
 - [[BCTV14b]](https://eprint.iacr.org/2014/595)
 - [[CTV15]](https://eprint.iacr.org/2015/377)
 - [ZKBoo [GMO16]](https://eprint.iacr.org/2016/163.pdf)
 - [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
 - [BCC+16](https://eprint.iacr.org/2016/263.pdf)
-- [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf)
+  - [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf)
 - [ZKB++ / Picnic [CDGORRSZ17]](https://eprint.iacr.org/2017/279.pdf)
 - [Ligero [AHIV17]](https://acmccs.github.io/papers/p2087-amesA.pdf)
 - [Hyrax [WTSTW17]](https://eprint.iacr.org/2017/1132.pdf)
@@ -27,14 +28,14 @@
 ## Implementations of proving systems
 
 - [libsnark](https://github.com/scipr-lab/libsnark) - C++ library for zk-SNARK proofs
-  - Pinocchio (implements [[BCTV14a]](http://eprint.iacr.org/2013/879) approach)
+  - Pinocchio (implements [BCTV14a] approach)
   - [BCTV14b]
   - [CTV15]
 - [bellman](https://github.com/ebfull/bellman/) - Rust library for zk-SNARK proofs
   - [Groth16]
 - [ZKBoo](https://github.com/Sobuno/ZKBoo)
 - Bootle proofs
-  - [BulletProofLib](https://github.com/bbuenz/BulletProofLib) (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
+  - [BulletProofLib](https://github.com/bbuenz/BulletProofLib) (implements Bulletproofs [BBBPWM17] approach)
   - [secp256k1-zkp (experimental)](https://github.com/ElementsProject/secp256k1-zkp/pull/16) (implements Bulletproofs [BBBPWM17] approach)
   - [ristretto-bulletproofs](https://github.com/chain/ristretto-bulletproofs/) (implements Bulletproofs [BBBPWM17] approach using Ristretto on Curve25519) ([notes](https://doc-internal.dalek.rs/ristretto_bulletproofs/notes/index.html))
 - Picnic
