@@ -71,4 +71,6 @@ Stay tuned! 😁
 
 ## I'd like to add another proving system / write a short explainer / remove those awful 90's images
 
-You can make a pull request [here](https://github.com/ZKProofs/ZKProofs.github.io)!
+You can propose an edit to this page [here](https://github.com/ZKProofs/ZKProofs.github.io/edit/master/index.md)!
+
+For more broad changes, you can make a pull request [here](https://github.com/ZKProofs/ZKProofs.github.io)!
