@@ -33,16 +33,16 @@
 ## Implementations of proving systems
 
 - [libsnark](https://github.com/scipr-lab/libsnark) - C++ library for zk-SNARK proofs
-  - Pinocchio (implements [BCTV14a] approach)
-  - [BCTV14b]
-  - [CTV15]
+  - Pinocchio (implements [[BCTV14a]](http://eprint.iacr.org/2013/879) approach)
+  - [[BCTV14b]](https://eprint.iacr.org/2014/595)
+  - [[CTV15]](https://eprint.iacr.org/2015/377)
 - [bellman](https://github.com/ebfull/bellman/) - Rust library for zk-SNARK proofs
-  - [Groth16]
+  - [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
 - [ZKBoo](https://github.com/Sobuno/ZKBoo)
-- [BCC+16]
-  - [BulletProofLib](https://github.com/bbuenz/BulletProofLib) (implements Bulletproofs [BBBPWM17] approach)
-  - [secp256k1-zkp (experimental)](https://github.com/ElementsProject/secp256k1-zkp/pull/16) (implements Bulletproofs [BBBPWM17] approach)
-  - [ristretto-bulletproofs](https://github.com/chain/ristretto-bulletproofs/) (implements Bulletproofs [BBBPWM17] approach using Ristretto on Curve25519) ([notes](https://doc-internal.dalek.rs/ristretto_bulletproofs/notes/index.html))
+- [[BCC+16]](https://eprint.iacr.org/2016/263.pdf)
+  - [BulletProofLib](https://github.com/bbuenz/BulletProofLib) (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
+  - [secp256k1-zkp (experimental)](https://github.com/ElementsProject/secp256k1-zkp/pull/16) (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
+  - [ristretto-bulletproofs](https://github.com/chain/ristretto-bulletproofs/) (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach using Ristretto on Curve25519) ([notes](https://doc-internal.dalek.rs/ristretto_bulletproofs/notes/index.html))
 - Picnic
   - [Reference implementation](https://github.com/Microsoft/Picnic)
   - [Optimized implementation](https://github.com/IAIK/Picnic)
@@ -63,8 +63,8 @@
 
 ## General-purpose compilers from high-level languages
 - [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
-- [Geppetto (CFHKKNPZ14)](https://eprint.iacr.org/2014/976)
-- [TinyRAM ([BCGTV13])](https://eprint.iacr.org/2013/507), [vnTinyRAM ([BCTV14a])](http://eprint.iacr.org/2013/879) and [scalable TinyRAM ([BCTV14b])](https://eprint.iacr.org/2014/595)
+- [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976)
+- [TinyRAM [BCGTV13]](https://eprint.iacr.org/2013/507), [vnTinyRAM [BCTV14a]](http://eprint.iacr.org/2013/879) and [scalable TinyRAM [BCTV14b]](https://eprint.iacr.org/2014/595)
 - [C0C0 [KZMQCPPSS15]](https://eprint.iacr.org/2015/1093)
 - [xJsnark [KPS18]](https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a543.pdf)
 - Pantry [add ref]
