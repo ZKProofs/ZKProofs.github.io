@@ -62,6 +62,8 @@
 - [Snarky](https://github.com/o1-labs/snarky) - OCaml front-end for writing R1CS SNARKs, currently backed by libsnark
 
 ## General-purpose compilers from high-level languages
+- [ZKPDL [MEKHL10]](https://www.usenix.org/legacy/event/sec10/tech/full_papers/Meiklejohn.pdf)
+  - [Cashlib](https://github.com/brownie/cashlib) - C++ implementation
 - [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
 - [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976)
 - [TinyRAM [BCGTV13]](https://eprint.iacr.org/2013/507), [vnTinyRAM [BCTV14a]](http://eprint.iacr.org/2013/879) and [scalable TinyRAM [BCTV14b]](https://eprint.iacr.org/2014/595)
@@ -70,7 +72,6 @@
 - Pantry [add ref]
 - Buffet [add ref]
 - Pequin [add ref]
-- [ZKPDL](https://www.usenix.org/legacy/event/sec10/tech/full_papers/Meiklejohn.pdf) [(github)](https://github.com/brownie/cashlib)
 
 
 ## Example circuits
