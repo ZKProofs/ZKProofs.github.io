@@ -70,6 +70,7 @@
 - Pantry [add ref]
 - Buffet [add ref]
 - Pequin [add ref]
+- [ZKPDL](https://www.usenix.org/legacy/event/sec10/tech/full_papers/Meiklejohn.pdf) [(github)](https://github.com/brownie/cashlib)
 
 
 ## Example circuits
