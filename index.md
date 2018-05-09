@@ -68,6 +68,8 @@
 - [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976)
 - [TinyRAM [BCGTV13]](https://eprint.iacr.org/2013/507), [vnTinyRAM [BCTV14a]](http://eprint.iacr.org/2013/879) and [scalable TinyRAM [BCTV14b]](https://eprint.iacr.org/2014/595)
 - [C0C0 [KZMQCPPSS15]](https://eprint.iacr.org/2015/1093)
+- [Snårkl [SML17]](https://link.springer.com/chapter/10.1007%2F978-3-319-73305-0_3) - Haskell embedded DSL for verifiable computing
+  - [Implementation backed by libsnark](https://github.com/gstew5/snarkl)
 - [xJsnark [KPS18]](https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a543.pdf)
 - Pantry [add ref]
 - Buffet [add ref]
