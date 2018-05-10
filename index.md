@@ -23,6 +23,7 @@
 - [[CTV15]](https://eprint.iacr.org/2015/377)
 - [ZKBoo [GMO16]](https://eprint.iacr.org/2016/163.pdf)
 - [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
+  - [[GM17]](https://eprint.iacr.org/2017/540.pdf)
   - [[BG18]](https://eprint.iacr.org/2018/187)
 - [[BCC+16]](https://eprint.iacr.org/2016/263.pdf)
   - [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf)
