@@ -14,7 +14,7 @@
 
 ## Zero-knowledge proving systems
 
-- [[GGPR12]](https://eprint.iacr.org/2012/215)
+- [[GGPR13]](https://eprint.iacr.org/2012/215)
   - [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
   - [[BCGTV13]](https://eprint.iacr.org/2013/507)
   - [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976)
@@ -34,7 +34,7 @@
 ## Implementations of proving systems
 
 - [libsnark](https://github.com/scipr-lab/libsnark) - C++ library for zk-SNARK proofs
-  - Pinocchio (implements [[BCTV14a]](http://eprint.iacr.org/2013/879) approach)
+  - [[GGPR13]](https://eprint.iacr.org/2013/279.pdf) (implements [[BCTV14a]](http://eprint.iacr.org/2013/879) approach)
   - [[BCTV14b]](https://eprint.iacr.org/2014/595)
   - [[CTV15]](https://eprint.iacr.org/2015/377)
 - [bellman](https://github.com/ebfull/bellman/) - Rust library for zk-SNARK proofs
@@ -48,7 +48,7 @@
   - [Reference implementation](https://github.com/Microsoft/Picnic)
   - [Optimized implementation](https://github.com/IAIK/Picnic)
 - [libSTARK](https://github.com/elibensasson/libSTARK)
-  - zk-STARKs
+  - [zk-STARKs [BBHR18]](https://eprint.iacr.org/2018/046)
 - [emmy](https://github.com/xlab-si/emmy)
   - ZKP primitives for [Camenisch-Lysyanskaya anonymous credentials](https://eprint.iacr.org/2001/019.pdf)
   - Camenisch-Lysyanskaya anonymous credentials (work in progress)
