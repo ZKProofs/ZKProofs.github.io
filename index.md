@@ -89,6 +89,12 @@
 - [Zcash Sapling](https://github.com/zcash/zips/blob/master/protocol/sapling.pdf)
   - [Rust implementation over BLS12-381 using bellman](https://github.com/zcash-hackworks/sapling-crypto)
 
+## Standardization efforts
+
+- [Zero Knowledge Proof Standardization](https://zkproof.org/) and [1st Workshop](https://zkproof.org/standards_meetings.html)
+- [Letter to NIST](docs/Letter-to-NIST-20160613-Advanced-Crypto.pdf) on standardizing new cryptographic standards
+
+
 ## So are they fast yet?
 
 Stay tuned! 😁
