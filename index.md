@@ -66,15 +66,16 @@
 - [ZKPDL [MEKHL10]](https://www.usenix.org/legacy/event/sec10/tech/full_papers/Meiklejohn.pdf)
   - [Cashlib](https://github.com/brownie/cashlib) - C++ implementation
 - [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
+- [Pantry [BFRSBW13]](https://arifeldman.com/pub/pantry-sosp13.pdf)
 - [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976)
 - [TinyRAM [BCGTV13]](https://eprint.iacr.org/2013/507), [vnTinyRAM [BCTV14a]](http://eprint.iacr.org/2013/879) and [scalable TinyRAM [BCTV14b]](https://eprint.iacr.org/2014/595)
+- [Buffet [WSRBW15]](https://cs.nyu.edu/~mwalfish/papers/buffet-ndss15.pdf)
 - [C0C0 [KZMQCPPSS15]](https://eprint.iacr.org/2015/1093)
+- [Pequin](https://github.com/pepper-project/pequin) - Toolchain to verifiably execute programs expressed in (a large subset of) C,  backed by libsnark.
+  - [Relevant publications](https://www.pepper-project.org/#publications) 
 - [Snårkl [SML17]](https://link.springer.com/chapter/10.1007%2F978-3-319-73305-0_3) - Haskell embedded DSL for verifiable computing
   - [Implementation backed by libsnark](https://github.com/gstew5/snarkl)
 - [xJsnark [KPS18]](https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a543.pdf)
-- Pantry [add ref]
-- Buffet [add ref]
-- Pequin [add ref]
 
 
 ## Example circuits
