@@ -85,7 +85,7 @@
   - [Rust implementation over BLS12-381 using bellman](https://github.com/zcash-hackworks/sapling-crypto/tree/master/src/circuit/sprout)
 - [ANONIZE [HMP15]](https://eprint.iacr.org/2015/681.pdf)
   - [Mobile applications (closed-source)](https://anonize.org/)
-- [Zcash Sapling (in-progress)](https://github.com/zcash/zips/blob/master/protocol/sapling.pdf)
+- [Zcash Sapling](https://github.com/zcash/zips/blob/master/protocol/sapling.pdf)
   - [Rust implementation over BLS12-381 using bellman](https://github.com/zcash-hackworks/sapling-crypto)
 
 ## So are they fast yet?
