@@ -20,11 +20,13 @@
   - [[BG18]](https://eprint.iacr.org/2018/187)
 - [[BCC+16]](https://eprint.iacr.org/2016/263.pdf)
   - [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf)
+- [Hybrid Interactive ZK [CCM16]] (https://eprint.iacr.org/2016/583)
 - [ZKB++ / Picnic [CDGORRSZ17]](https://eprint.iacr.org/2017/279.pdf)
 - [Ligero [AHIV17]](https://acmccs.github.io/papers/p2087-amesA.pdf)
 - [Hyrax [WTSTW17]](https://eprint.iacr.org/2017/1132.pdf)
 - [zk-STARKs [BBHR18]](https://eprint.iacr.org/2018/046)
 - [Updatable Universal CRSs [GKMMM18]](https://eprint.iacr.org/2018/280)
+- [Hybrid NIZK [ACM18]](https://eprint.iacr.org/2018/557)
 
 ## Implementations of proving systems
 
