@@ -35,7 +35,7 @@
   - [[GGPR13]](https://eprint.iacr.org/2013/279.pdf) (implements [[BCTV14a]](http://eprint.iacr.org/2013/879) approach)
   - [[BCTV14b]](https://eprint.iacr.org/2014/595)
   - [[CTV15]](https://eprint.iacr.org/2015/377)
-- [bellman](https://github.com/ebfull/bellman/) - Rust library for zk-SNARK proofs
+- [bellman](https://github.com/zkcrypto/bellman/) - Rust library for zk-SNARK proofs
   - [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
 - [ZKBoo](https://github.com/Sobuno/ZKBoo)
 - [[BCC+16]](https://eprint.iacr.org/2016/263.pdf)
