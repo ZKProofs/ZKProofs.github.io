@@ -13,6 +13,7 @@
   - [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976)
   - [[BCTV14a]](http://eprint.iacr.org/2013/879)
 - [[BCTV14b]](https://eprint.iacr.org/2014/595)
+  - [Coda [MS18]](https://codaprotocol.com/static/coda-whitepaper-05-10-2018-0.pdf)
 - [[CTV15]](https://eprint.iacr.org/2015/377)
 - [ZKBoo [GMO16]](https://eprint.iacr.org/2016/163.pdf)
 - [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
