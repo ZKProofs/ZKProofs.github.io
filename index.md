@@ -4,6 +4,7 @@
 - [What are zk-SNARKs?](https://z.cash/technology/zksnarks.html)
 - ["The Functionality of zk-SNARK"](http://qed-it.com/2017/07/challenge-one-the-functionality-of-zk-snark/) challenge set in ["The Hunting of the SNARK"](http://qed-it.com/2017/07/the-hunting-of-the-snark/).
 - ["Probabilistic Proof Systems"](http://people.cs.georgetown.edu/jthaler/COSC544.html) course notes
+- Vitalik Buterin's introduction to SNARKs, part [1](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649), [2](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627), and [3](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6); and STARKs, part [1](https://vitalik.ca/general/2017/11/09/starks_part_1.html), [2](https://vitalik.ca/general/2017/11/22/starks_part_2.html), and [3](https://vitalik.ca/general/2018/07/21/starks_part_3.html).
 
 ## Zero-knowledge proving systems
 
