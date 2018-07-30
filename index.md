@@ -39,6 +39,7 @@
 - [bellman](https://github.com/zkcrypto/bellman/) - Rust library for zk-SNARK proofs
   - [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
 - [ZKBoo](https://github.com/Sobuno/ZKBoo)
+- [ZKB++](https://github.com/IAIK/gzkbpp)
 - [[BCC+16]](https://eprint.iacr.org/2016/263.pdf)
   - [BulletProofLib](https://github.com/bbuenz/BulletProofLib) - Java implementation (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
   - [secp256k1-zkp (experimental)](https://github.com/ElementsProject/secp256k1-zkp/pull/16) - C implementation on secp256k1 (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
