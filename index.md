@@ -1,5 +1,6 @@
 ## What is a zero-knowledge proof?
 
+- [A New Approach To Protecting Secrets Is Discovered](https://www.nytimes.com/1987/02/17/science/a-new-approach-to-protecting-secrets-is-discovered.html) - The New York Times, February 17th, 1987
 - [Zero Knowledge Proofs: An illustrated primer](https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/)
 - [What are zk-SNARKs?](https://z.cash/technology/zksnarks.html)
 - ["The Functionality of zk-SNARK"](http://qed-it.com/2017/07/challenge-one-the-functionality-of-zk-snark/) challenge set in ["The Hunting of the SNARK"](http://qed-it.com/2017/07/the-hunting-of-the-snark/).
