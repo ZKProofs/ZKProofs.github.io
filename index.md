@@ -21,6 +21,7 @@
 - [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
   - [[GM17]](https://eprint.iacr.org/2017/540.pdf)
   - [[BG18]](https://eprint.iacr.org/2018/187)
+  - [[BGM18](https://eprint.iacr.org/2017/1050) - "Powers of Tau" protocol for scalable generation of structured reference string for [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
 - [[BCC+16]](https://eprint.iacr.org/2016/263.pdf)
   - [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf)
 - [Hybrid Interactive ZK [CCM16]](https://eprint.iacr.org/2016/583)
