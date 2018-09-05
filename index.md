@@ -68,6 +68,7 @@
 - [ZKPDL [MEKHL10]](https://www.usenix.org/legacy/event/sec10/tech/full_papers/Meiklejohn.pdf)
   - [Cashlib](https://github.com/brownie/cashlib) - C++ implementation
 - [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
+  - [Pinocchio toolchain](https://archive.codeplex.com/?p=vc) - Python implementation
 - [Pantry [BFRSBW13]](https://arifeldman.com/pub/pantry-sosp13.pdf)
 - [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976)
 - [TinyRAM [BCGTV13]](https://eprint.iacr.org/2013/507), [vnTinyRAM [BCTV14a]](http://eprint.iacr.org/2013/879) and [scalable TinyRAM [BCTV14b]](https://eprint.iacr.org/2014/595)
