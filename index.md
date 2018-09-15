@@ -57,6 +57,12 @@
   - client-server (prover-verifier) communication based on Protobuffers and gRPC
 - [VC](https://archive.codeplex.com/?p=vc) implementation accompanying the [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf) and [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976) papers
 
+## Generating structured reference strings
+Some proving systems require a structured reference string (SRS). The following works discuss secure SRS generation.
+- [[BCGTV15]](https://ieeexplore.ieee.org/document/7163032/) - MPC for generating the SRS for [[PGHR13]](https://eprint.iacr.org/2013/279.pdf)/[[BCGTV13]](https://eprint.iacr.org/2013/507)
+- [[BGG17]](https://eprint.iacr.org/2017/602) - improved MPC for generating the SRS for [[PGHR13]](https://eprint.iacr.org/2013/279.pdf)/[[BCGTV13]](https://eprint.iacr.org/2013/507)
+- [[BGM18]](https://eprint.iacr.org/2017/1050) - "Powers of Tau" protocol for scalable generation of structured reference string for [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
+
 ## Low-level libraries/languages for writing circuits
 
 - [libsnark](https://github.com/scipr-lab/libsnark)'s gadgetlib1 and gadgetlib2 - C++ libraries for for building circuits for preprocessing zk-SNARKs
