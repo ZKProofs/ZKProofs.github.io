@@ -34,6 +34,7 @@
 - [zk-STARKs [BBHR18]](https://eprint.iacr.org/2018/046)
 - [Updatable Universal CRSs [GKMMM18]](https://eprint.iacr.org/2018/280)
 - [Hybrid NIZK [ACM18]](https://eprint.iacr.org/2018/557)
+- [Aurora [BCRSVW18]](https://eprint.iacr.org/2018/828.pdf)
 
 ## Implementations of proving systems
 
@@ -60,6 +61,7 @@
   - Camenisch-Lysyanskaya anonymous credentials (work in progress)
   - client-server (prover-verifier) communication based on Protobuffers and gRPC
 - [VC](https://archive.codeplex.com/?p=vc) implementation accompanying the [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf) and [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976) papers
+- [DIZK](https://github.com/scipr-lab/dizk) - Distibuted implementation of [[Groth16]](https://eprint.iacr.org/2016/260.pdf) as described in [[WZCPS18]](https://eprint.iacr.org/2018/691)
 
 ## Generating structured reference strings
 Some proving systems require a structured reference string (SRS). The following works discuss secure SRS generation.
@@ -102,6 +104,13 @@ Some proving systems require a structured reference string (SRS). The following 
 - [[KM18]](https://eprint.iacr.org/2018/176)
 - [Zcash Sapling](https://github.com/zcash/zips/blob/master/protocol/sapling.pdf)
   - [Rust implementation over BLS12-381 using bellman](https://github.com/zcash-hackworks/sapling-crypto)
+- [Zexe [BCGMMW2018]](https://eprint.iacr.org/2018/962.pdf)
+
+
+## Circuit optimization
+
+- [Daira Hopwood's notes from Zcon0](https://docs.google.com/document/d/1aZ1GUAJOBFuqD4GOo9HqAH8w4xJo7HM4Bjte5-wkdnU)
+
 
 ## Standardization efforts
 
