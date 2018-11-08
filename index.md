@@ -34,6 +34,7 @@
 - [zk-STARKs [BBHR18]](https://eprint.iacr.org/2018/046)
 - [Updatable Universal CRSs [GKMMM18]](https://eprint.iacr.org/2018/280)
 - [Hybrid NIZK [ACM18]](https://eprint.iacr.org/2018/557)
+- [DIZK [WZCPS18]](https://eprint.iacr.org/2018/691)
 
 ## Implementations of proving systems
 
@@ -60,6 +61,10 @@
   - Camenisch-Lysyanskaya anonymous credentials (work in progress)
   - client-server (prover-verifier) communication based on Protobuffers and gRPC
 - [VC](https://archive.codeplex.com/?p=vc) implementation accompanying the [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf) and [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976) papers
+- [DIZK](https://github.com/scipr-lab/dizk) - Java library for distributed zero knowledge proof systems
+  - [[WZCPS18]](https://eprint.iacr.org/2018/691) (implements [[Groth16]](https://eprint.iacr.org/2016/260.pdf) approach)
+  - Enables zkSNARK computations of up to billions of logical gates (100x larger than prior art) at a cost of 10μs per gate (100x faster than prior art)
+  - Implements distributed polynomial evaluation/interpolation, distributed Lagrange polynomial computations, and distributed multi-scalar multiplication
 
 ## Generating structured reference strings
 Some proving systems require a structured reference string (SRS). The following works discuss secure SRS generation.
