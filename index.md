@@ -35,6 +35,7 @@
 - [Updatable Universal CRSs [GKMMM18]](https://eprint.iacr.org/2018/280)
 - [Hybrid NIZK [ACM18]](https://eprint.iacr.org/2018/557)
 - [DIZK [WZCPS18]](https://eprint.iacr.org/2018/691)
+- [Aurora [BCRSVW18]](https://eprint.iacr.org/2018/828.pdf)
 
 ## Implementations of proving systems
 
@@ -62,7 +63,7 @@
   - client-server (prover-verifier) communication based on Protobuffers and gRPC
 - [VC](https://archive.codeplex.com/?p=vc) implementation accompanying the [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf) and [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976) papers
 - [DIZK](https://github.com/scipr-lab/dizk) - Java library for distributed zero knowledge proof systems
-  - [[WZCPS18]](https://eprint.iacr.org/2018/691) (implements [[Groth16]](https://eprint.iacr.org/2016/260.pdf) approach)
+  - [[WZCPS18]](https://eprint.iacr.org/2018/691) (distributed implementation of [[Groth16]](https://eprint.iacr.org/2016/260.pdf))
   - Enables zkSNARK computations of up to billions of logical gates (100x larger than prior art) at a cost of 10μs per gate (100x faster than prior art)
   - Implements distributed polynomial evaluation/interpolation, distributed Lagrange polynomial computations, and distributed multi-scalar multiplication
 
@@ -107,6 +108,13 @@ Some proving systems require a structured reference string (SRS). The following 
 - [[KM18]](https://eprint.iacr.org/2018/176)
 - [Zcash Sapling](https://github.com/zcash/zips/blob/master/protocol/sapling.pdf)
   - [Rust implementation over BLS12-381 using bellman](https://github.com/zcash-hackworks/sapling-crypto)
+- [Zexe [BCGMMW2018]](https://eprint.iacr.org/2018/962.pdf)
+
+
+## Circuit optimization
+
+- [Daira Hopwood's notes from Zcon0](https://docs.google.com/document/d/1aZ1GUAJOBFuqD4GOo9HqAH8w4xJo7HM4Bjte5-wkdnU)
+
 
 ## Standardization efforts
 
