@@ -66,6 +66,9 @@
   - [[WZCPS18]](https://eprint.iacr.org/2018/691) (distributed implementation of [[Groth16]](https://eprint.iacr.org/2016/260.pdf))
   - Enables zkSNARK computations of up to billions of logical gates (100x larger than prior art) at a cost of 10μs per gate (100x faster than prior art)
   - Implements distributed polynomial evaluation/interpolation, distributed Lagrange polynomial computations, and distributed multi-scalar multiplication
+- [snarkjs](https://github.com/iden3/snarkjs) - JavaScript library for zk-SNARK proofs
+  - [[GGPR13]](https://eprint.iacr.org/2013/279.pdf) (implements [[BCTV14a]](http://eprint.iacr.org/2013/879) approach)
+  - [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
 
 ## Generating structured reference strings
 Some proving systems require a structured reference string (SRS). The following works discuss secure SRS generation.
