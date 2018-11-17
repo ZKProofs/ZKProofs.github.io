@@ -10,9 +10,9 @@
 ## Zero-knowledge proving systems
 
 - Invention of zero-knowledge
-  - [ZKP[GMR85]](http://groups.csail.mit.edu/cis/crypto/classes/6.876/papers/gmr-ZK.pdf)
-  - [NIZK[BFM88]]
-  - [Succinct ZK[K92]](http://people.csail.mit.edu/vinodv/6892-Fall2013/efficientargs.pdf)
+  - [Zero-Knowledge Proofs [GMR85]](http://groups.csail.mit.edu/cis/crypto/classes/6.876/papers/gmr-ZK.pdf)
+  - [Non-Interactive ZK [BFM88]](https://dl.acm.org/citation.cfm?id=62222)
+  - [Succinct ZK [K92]](http://people.csail.mit.edu/vinodv/6892-Fall2013/efficientargs.pdf)
 - [[GGPR13]](https://eprint.iacr.org/2012/215)
   - [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
   - [[BCGTV13]](https://eprint.iacr.org/2013/507)
