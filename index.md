@@ -35,7 +35,8 @@
 - [Updatable Universal CRSs [GKMMM18]](https://eprint.iacr.org/2018/280)
 - [Hybrid NIZK [ACM18]](https://eprint.iacr.org/2018/557)
 - [DIZK [WZCPS18]](https://eprint.iacr.org/2018/691)
-- [Aurora [BCRSVW18]](https://eprint.iacr.org/2018/828.pdf)
+- [Aurora [BCRSVW18]](https://eprint.iacr.org/2018/828.pdf)  
+- [AZTEC] (https://github.com/AztecProtocol/AZTEC/blob/master/AZTEC.pdf)
 
 ## Implementations of proving systems
 
