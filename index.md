@@ -78,7 +78,7 @@ Some proving systems require a structured reference string (SRS). The following 
 
 ## Low-level libraries/languages for writing circuits
 
-- [libsnark](https://github.com/scipr-lab/libsnark)'s gadgetlib1 and gadgetlib2 - C++ libraries for for building circuits for preprocessing zk-SNARKs
+- [libsnark](https://github.com/scipr-lab/libsnark)'s gadgetlib1 and gadgetlib2 - C++ libraries for building circuits for preprocessing zk-SNARKs
 - [jsnark](https://github.com/akosba/jsnark) - Java library for building circuits for preprocessing zk-SNARKs, backed by libsnark
 - [ZoKrates](https://github.com/JacobEberhardt/ZoKrates) - Toolbox for zk-SNARKs on Ethereum, backed by libsnark
 - [Snarky](https://github.com/o1-labs/snarky) - OCaml front-end for writing R1CS SNARKs, currently backed by libsnark
