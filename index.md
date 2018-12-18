@@ -7,12 +7,19 @@
 - ["Probabilistic Proof Systems"](http://people.cs.georgetown.edu/jthaler/COSC544.html) course notes
 - Vitalik Buterin's introduction to SNARKs, part [1](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649), [2](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627), and [3](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6); and STARKs, part [1](https://vitalik.ca/general/2017/11/09/starks_part_1.html), [2](https://vitalik.ca/general/2017/11/22/starks_part_2.html), and [3](https://vitalik.ca/general/2018/07/21/starks_part_3.html).
 
-## Zero-knowledge proving systems
+## History of Zero-knowledge proofs
 
 - Invention of zero-knowledge
   - [Zero-Knowledge Proofs [GMR85]](http://groups.csail.mit.edu/cis/crypto/classes/6.876/papers/gmr-ZK.pdf)
   - [Non-Interactive ZK [BFM88]](https://dl.acm.org/citation.cfm?id=62222)
-  - [Succinct ZK [K92]](http://people.csail.mit.edu/vinodv/6892-Fall2013/efficientargs.pdf)
+- Important landmarks for zk-SNARKs
+  - [Succinct ZK[K92]](http://people.csail.mit.edu/vinodv/6892-Fall2013/efficientargs.pdf)
+  - [Succinct Non-Interactive ZK [M94]](https://projecteuclid.org/download/pdf_1/euclid.lnl/1235415908)
+  - [Succinct NIZK without the PCP Theorem [Groth10]](http://www0.cs.ucl.ac.uk/staff/J.Groth/ShortNIZK.pdf)
+  - [Succinct NIZK without PCP Theorem & Quasi-linear prover time [GGPR13]](https://eprint.iacr.org/2012/215.pdf)
+
+## Recent Zero-Knowledge proving systems
+
 - [[GGPR13]](https://eprint.iacr.org/2012/215)
   - [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
   - [[BCGTV13]](https://eprint.iacr.org/2013/507)
