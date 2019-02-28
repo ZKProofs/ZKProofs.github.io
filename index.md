@@ -57,7 +57,7 @@
 - [[BCC+16]](https://eprint.iacr.org/2016/263.pdf)
   - [BulletProofLib](https://github.com/bbuenz/BulletProofLib) - Java implementation (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
   - [secp256k1-zkp (experimental)](https://github.com/ElementsProject/secp256k1-zkp/pull/16) - C implementation on secp256k1 (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
-  - [dalek-cryptography/bulletproofs](https://github.com/dalek-cryptography/bulletproofs) - Rust implementation using Ristretto on Curve25519 (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach) ([notes](https://doc-internal.dalek.rs/ristretto_bulletproofs/notes/index.html))
+  - [dalek-cryptography/bulletproofs](https://github.com/dalek-cryptography/bulletproofs) - Rust implementation using Ristretto on Curve25519 (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach) ([notes](https://doc-internal.dalek.rs/bulletproofs/notes/index.html))
   - [adjoint-io/bulletproofs](https://github.com/adjoint-io/bulletproofs) - Haskell implementation on secp256k1 (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
 - Picnic
   - [Reference implementation](https://github.com/Microsoft/Picnic)
