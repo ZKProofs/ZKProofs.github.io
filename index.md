@@ -15,6 +15,7 @@
 - Important landmarks for zk-SNARKs
   - [Succinct ZK[K92]](http://people.csail.mit.edu/vinodv/6892-Fall2013/efficientargs.pdf)
   - [Succinct Non-Interactive ZK [M94]](https://projecteuclid.org/download/pdf_1/euclid.lnl/1235415908)
+  - ["SNARK" terminology and characterization of existence [BCCT11]](https://eprint.iacr.org/2011/443)
   - [Succinct NIZK without the PCP Theorem [Groth10]](http://www0.cs.ucl.ac.uk/staff/J.Groth/ShortNIZK.pdf)
   - [Succinct NIZK without PCP Theorem & Quasi-linear prover time [GGPR13]](https://eprint.iacr.org/2012/215.pdf)
 
@@ -57,7 +58,7 @@
 - [[BCC+16]](https://eprint.iacr.org/2016/263.pdf)
   - [BulletProofLib](https://github.com/bbuenz/BulletProofLib) - Java implementation (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
   - [secp256k1-zkp (experimental)](https://github.com/ElementsProject/secp256k1-zkp/pull/16) - C implementation on secp256k1 (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
-  - [dalek-cryptography/bulletproofs](https://github.com/dalek-cryptography/bulletproofs) - Rust implementation using Ristretto on Curve25519 (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach) ([notes](https://doc-internal.dalek.rs/ristretto_bulletproofs/notes/index.html))
+  - [dalek-cryptography/bulletproofs](https://github.com/dalek-cryptography/bulletproofs) - Rust implementation using Ristretto on Curve25519 (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach) ([notes](https://doc-internal.dalek.rs/bulletproofs/notes/index.html))
   - [adjoint-io/bulletproofs](https://github.com/adjoint-io/bulletproofs) - Haskell implementation on secp256k1 (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
 - Picnic
   - [Reference implementation](https://github.com/Microsoft/Picnic)
@@ -91,6 +92,8 @@ Some proving systems require a structured reference string (SRS). The following 
 - [jsnark](https://github.com/akosba/jsnark) - Java library for building circuits for preprocessing zk-SNARKs, backed by libsnark
 - [ZoKrates](https://github.com/JacobEberhardt/ZoKrates) - Toolbox for zk-SNARKs on Ethereum, backed by libsnark
 - [Snarky](https://github.com/o1-labs/snarky) - OCaml front-end for writing R1CS SNARKs, currently backed by libsnark
+- [Circom](https://github.com/iden3/circom) - DSL language for writing R1CS SNARKs, backed by snarkjs
+- [Circomlib](https://github.com/iden3/circomlib) - Library of basic circuits for Circom 
 - [ZEXE](https://github.com/scipr-lab/zexe)'s snark-gadgets - Rust module for building circuits, comes with pre-built algebra circuits
 
 ## General-purpose compilers from high-level languages
