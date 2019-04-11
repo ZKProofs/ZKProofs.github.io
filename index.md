@@ -89,6 +89,8 @@ Some proving systems require a structured reference string (SRS). The following 
 - [jsnark](https://github.com/akosba/jsnark) - Java library for building circuits for preprocessing zk-SNARKs, backed by libsnark
 - [ZoKrates](https://github.com/JacobEberhardt/ZoKrates) - Toolbox for zk-SNARKs on Ethereum, backed by libsnark
 - [Snarky](https://github.com/o1-labs/snarky) - OCaml front-end for writing R1CS SNARKs, currently backed by libsnark
+- [Circom](https://github.com/iden3/circom) - DSL language for writing R1CS SNARKs, backed by snarkjs
+- [Circomlib](https://github.com/iden3/circomlib) - Library of basic circuits for Circom 
 
 ## General-purpose compilers from high-level languages
 - [ZKPDL [MEKHL10]](https://www.usenix.org/legacy/event/sec10/tech/full_papers/Meiklejohn.pdf)
