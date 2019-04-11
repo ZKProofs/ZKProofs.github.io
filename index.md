@@ -77,6 +77,8 @@
 - [snarkjs](https://github.com/iden3/snarkjs) - JavaScript library for zk-SNARK proofs
   - [[GGPR13]](https://eprint.iacr.org/2013/279.pdf) (implements [[BCTV14a]](http://eprint.iacr.org/2013/879) approach)
   - [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
+- [ZEXE](https://github.com/scipr-lab/zexe) - a Rust library for decentralized private computation
+  - [[GM17]](https://eprint.iacr.org/2017/540.pdf)
 
 ## Generating structured reference strings
 Some proving systems require a structured reference string (SRS). The following works discuss secure SRS generation.
@@ -92,6 +94,7 @@ Some proving systems require a structured reference string (SRS). The following 
 - [Snarky](https://github.com/o1-labs/snarky) - OCaml front-end for writing R1CS SNARKs, currently backed by libsnark
 - [Circom](https://github.com/iden3/circom) - DSL language for writing R1CS SNARKs, backed by snarkjs
 - [Circomlib](https://github.com/iden3/circomlib) - Library of basic circuits for Circom 
+- [ZEXE](https://github.com/scipr-lab/zexe)'s snark-gadgets - Rust module for building circuits, comes with pre-built algebra circuits
 
 ## General-purpose compilers from high-level languages
 - [ZKPDL [MEKHL10]](https://www.usenix.org/legacy/event/sec10/tech/full_papers/Meiklejohn.pdf)
