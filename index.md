@@ -128,15 +128,26 @@ Some proving systems require a structured reference string (SRS). The following 
 - [[BGG17]](https://eprint.iacr.org/2017/602) - improved MPC for generating the SRS for [PGHR13]/[BCGTV13]
 - [[BGM18]](https://eprint.iacr.org/2017/1050) - "Powers of Tau" protocol for scalable generation of structured reference string for [Groth16]
 
-## Low-level libraries/languages for writing circuits
+## Libraries for writing circuits
 
-- [libsnark](https://github.com/scipr-lab/libsnark)'s gadgetlib1 and gadgetlib2 - C++ libraries for building circuits for preprocessing zk-SNARKs
-- [jsnark](https://github.com/akosba/jsnark) - Java library for building circuits for preprocessing zk-SNARKs, backed by libsnark
-- [ZoKrates](https://github.com/JacobEberhardt/ZoKrates) - Toolbox for zk-SNARKs on Ethereum, backed by libsnark
-- [Snarky](https://github.com/o1-labs/snarky) - OCaml front-end for writing R1CS SNARKs, currently backed by libsnark
-- [Circom](https://github.com/iden3/circom) - DSL language for writing R1CS SNARKs, backed by snarkjs
-- [Circomlib](https://github.com/iden3/circomlib) - Library of basic circuits for Circom 
-- [ZEXE](https://github.com/scipr-lab/zexe)'s snark-gadgets - Rust module for building circuits, comes with pre-built algebra circuits
+| Name        | DSL      | Host Language | Backed by | Description |
+|-------------|----------|---------------|-----------|-------------|
+| [libsnark]'s gadgetlib1/2 |     | C++  | libsnark  | Libraries for building circuits for preprocessing zk-SNARKs |
+| [bellman]   |          | Rust          | bellman   | Library for building circuits; various gadgets in [sapling-crypto] |
+| [jsnark]    |          | Java          | libsnark  | Library for building circuits for preprocessing zk-SNARKs |
+| [ZoKrates]  | Python subset  | Rust    | libsnark, bellman | Toolbox for zk-SNARKs on Ethereum |
+| [Snarky]    | Embedded OCaml | OCaml   | libsnark  | Front-end for writing R1CS SNARKs |
+| [Circom]    | Typed JS | JavaScript    | snarkjs   | Language for writing R1CS SNARKs |
+| [Circomlib] | Typed JS | JavaScript    |           | Library of basic circuits for Circom |
+| [ZEXE]'s snark-gadgets |      | Rust   | ZEXE      | Module for building circuits, comes with pre-built algebra circuits |
+
+[sapling-crypto]: https://github.com/zcash/librustzcash/tree/master/sapling-crypto/src/circuit
+[jsnark]: https://github.com/akosba/jsnark
+[ZoKrates]: https://github.com/JacobEberhardt/ZoKrates
+[Snarky]: https://github.com/o1-labs/snarky
+[Circom]: https://github.com/iden3/circom
+[Circomlib]: https://github.com/iden3/circomlib
+[ZEXE]: https://github.com/scipr-lab/zexe
 
 ## General-purpose compilers from high-level languages
 - [ZKPDL [MEKHL10]](https://www.usenix.org/legacy/event/sec10/tech/full_papers/Meiklejohn.pdf)
