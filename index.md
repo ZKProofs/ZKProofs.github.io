@@ -86,7 +86,6 @@
 | [bellman]                 | Rust        | BLS12-381    | [Groth16]  |
 | [dalek bulletproofs]      | Rust        | ristretto255 | [BBBPWM17] |
 | [adjoint-io bulletproofs] | Haskell     | secp256k1    | [BBBPWM17] |
-| [libSTARK]                | C++         |              | [BBHR18]   |
 | [DIZK]                    | Java        | BN254        | [Groth16]  |
 | [snarkjs]                 | JavaScript  | BN254        | [Groth16], [BCTV14a] |
 | [websnark]                | WebAssembly | BN254        | [Groth16]  |
@@ -117,6 +116,11 @@ Other implementations:
 - [VC](https://archive.codeplex.com/?p=vc) implementation accompanying the Pinocchio ([PGHR13]) and Geppetto ([CFHKKNPZ14]) papers
 - [ZEXE](https://github.com/scipr-lab/zexe) - a Rust library for decentralized private computation
   - [GM17]
+- [libSTARK] - Academic C++ library for zk-STARKs
+  - [BBHR18]
+- [libiop](https://github.com/scipr-lab/libiop) - Academic C++ library for IOP-based zk-SNARKs.
+  - [AHIV17]
+  - [BCRSVW18]
 
 ## Generating structured reference strings
 Some proving systems require a structured reference string (SRS). The following works discuss secure SRS generation.
