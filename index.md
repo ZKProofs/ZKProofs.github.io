@@ -79,6 +79,7 @@
   - [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
 - [ZEXE](https://github.com/scipr-lab/zexe) - a Rust library for decentralized private computation
   - [[GM17]](https://eprint.iacr.org/2017/540.pdf)
+- [websnark](https://github.com/iden3/websnark) - A fast zkSnark proof generator written in native Web Assembly.
 
 ## Generating structured reference strings
 Some proving systems require a structured reference string (SRS). The following works discuss secure SRS generation.
