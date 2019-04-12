@@ -58,16 +58,16 @@
 
 ## Implementations of proving systems
 
-| Name                      | Language    | Curves    | [Groth16] | [BBBPWM17] | [BBHR18] | [BCTV14a] | [BCTV14b] | [CTV15] |
-|---------------------------|-------------|-----------|-----------|------------|----------|-----------|-----------|---------|
-| [libsnark]                | C++         | BN254        | ✔️ |   |   | ✔️ | ✔️ | ✔️ |
-| [bellman]                 | Rust        | BLS12-381    | ✔️ |   |   |   |   |   |
-| [dalek bulletproofs]      | Rust        | ristretto255 |   | ✔️ |   |   |   |   |
-| [adjoint-io bulletproofs] | Haskell     | secp256k1    |   | ✔️ |   |   |   |   |
-| [libSTARK]                | C++         |              |   |   | ✔️ |   |   |   |
-| [DIZK]                    | Java        | BN254        | ✔️ |   |   |   |   |   |
-| [snarkjs]                 | JavaScript  | BN254        | ✔️ |   |   | ✔️ |   |   |
-| [websnark]                | WebAssembly | BN254        | ✔️ |   |   |   |   |   |
+| Name                      | Language    | Curves       | Proving systems |
+|---------------------------|-------------|--------------|-----------------|
+| [libsnark]                | C++         | BN254        | [Groth16], [BCTV14a], [BCTV14b], [CTV15] |
+| [bellman]                 | Rust        | BLS12-381    | [Groth16]  |
+| [dalek bulletproofs]      | Rust        | ristretto255 | [BBBPWM17] |
+| [adjoint-io bulletproofs] | Haskell     | secp256k1    | [BBBPWM17] |
+| [libSTARK]                | C++         |              | [BBHR18]   |
+| [DIZK]                    | Java        | BN254        | [Groth16]  |
+| [snarkjs]                 | JavaScript  | BN254        | [Groth16], [BCTV14a] |
+| [websnark]                | WebAssembly | BN254        | [Groth16]  |
 
 [libsnark]: https://github.com/scipr-lab/libsnark
 [bellman]: https://github.com/zkcrypto/bellman
