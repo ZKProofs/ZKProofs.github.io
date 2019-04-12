@@ -25,67 +25,82 @@
   - [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
   - [[BCGTV13]](https://eprint.iacr.org/2013/507)
   - [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976)
-  - [[BCTV14a]](http://eprint.iacr.org/2013/879)
-- [[BCTV14b]](https://eprint.iacr.org/2014/595)
+  - [BCTV14a]
+- [BCTV14b]
   - [Coda [MS18]](https://codaprotocol.com/static/coda-whitepaper-05-10-2018-0.pdf)
-- [[CTV15]](https://eprint.iacr.org/2015/377)
+- [CTV15]
 - [ZKBoo [GMO16]](https://eprint.iacr.org/2016/163.pdf)
-- [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
+- [Groth16]
   - [[GM17]](https://eprint.iacr.org/2017/540.pdf)
   - [[BG18]](https://eprint.iacr.org/2018/187)
+  - DIZK ([WZCPS18])
+    - Distributed implementation of [Groth16]
+    - Enables zkSNARK computations of up to billions of logical gates (100x larger than prior art) at a cost of 10μs per gate (100x faster than prior art)
+    - Implements distributed polynomial evaluation/interpolation, distributed Lagrange polynomial computations, and distributed multi-scalar multiplication
 - [[BCCGP16]](https://eprint.iacr.org/2016/263.pdf)
-  - [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf)
+  - Bulletproofs ([BBBPWM17])
 - [Hybrid Interactive ZK [CCM16]](https://eprint.iacr.org/2016/583)
 - [ZKB++ / Picnic [CDGORRSZ17]](https://eprint.iacr.org/2017/279.pdf)
 - [Ligero [AHIV17]](https://acmccs.github.io/papers/p2087-amesA.pdf)
 - [Hyrax [WTSTW17]](https://eprint.iacr.org/2017/1132.pdf)
-- [zk-STARKs [BBHR18]](https://eprint.iacr.org/2018/046)
+- zk-STARKs ([BBHR18])
 - [Updatable Universal CRSs [GKMMM18]](https://eprint.iacr.org/2018/280)
 - [Hybrid NIZK [ACM18]](https://eprint.iacr.org/2018/557)
-- [DIZK [WZCPS18]](https://eprint.iacr.org/2018/691)
 - [Aurora [BCRSVW18]](https://eprint.iacr.org/2018/828.pdf)
+
+[BCTV14a]: http://eprint.iacr.org/2013/879
+[BCTV14b]: https://eprint.iacr.org/2014/595
+[CTV15]: https://eprint.iacr.org/2015/377
+[Groth16]: https://eprint.iacr.org/2016/260.pdf
+[BBBPWM17]: https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf
+[BBHR18]: https://eprint.iacr.org/2018/046
+[WZCPS18]: https://eprint.iacr.org/2018/691
 
 ## Implementations of proving systems
 
-- [libsnark](https://github.com/scipr-lab/libsnark) - C++ library for zk-SNARK proofs
-  - [[GGPR13]](https://eprint.iacr.org/2013/279.pdf) (implements [[BCTV14a]](http://eprint.iacr.org/2013/879) approach)
-  - [[BCTV14b]](https://eprint.iacr.org/2014/595)
-  - [[CTV15]](https://eprint.iacr.org/2015/377)
-- [bellman](https://github.com/zkcrypto/bellman/) - Rust library for zk-SNARK proofs
-  - [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
+| Name                      | Language    | Curves    | [Groth16] | [BBBPWM17] | [BBHR18] | [BCTV14a] | [BCTV14b] | [CTV15] |
+|---------------------------|-------------|-----------|-----------|------------|----------|-----------|-----------|---------|
+| [libsnark]                | C++         | BN254        | ✔️ |   |   | ✔️ | ✔️ | ✔️ |
+| [bellman]                 | Rust        | BLS12-381    | ✔️ |   |   |   |   |   |
+| [dalek bulletproofs]      | Rust        | ristretto255 |   | ✔️ |   |   |   |   |
+| [adjoint-io bulletproofs] | Haskell     | secp256k1    |   | ✔️ |   |   |   |   |
+| [libSTARK]                | C++         |              |   |   | ✔️ |   |   |   |
+| [DIZK]                    | Java        | BN254        | ✔️ |   |   |   |   |   |
+| [snarkjs]                 | JavaScript  | BN254        | ✔️ |   |   | ✔️ |   |   |
+| [websnark]                | WebAssembly | BN254        | ✔️ |   |   |   |   |   |
+
+[libsnark]: https://github.com/scipr-lab/libsnark
+[bellman]: https://github.com/zkcrypto/bellman
+[dalek bulletproofs]: https://github.com/dalek-cryptography/bulletproofs
+[adjoint-io bulletproofs]: https://github.com/adjoint-io/bulletproofs
+[libSTARK]: https://github.com/elibensasson/libSTARK
+[DIZK]: https://github.com/scipr-lab/dizk
+[snarkjs]: https://github.com/iden3/snarkjs
+[websnark]: https://github.com/iden3/websnark
+
+Other implementations:
+
 - [ZKBoo](https://github.com/Sobuno/ZKBoo)
 - [ZKB++](https://github.com/IAIK/gzkbpp)
-- [[BCC+16]](https://eprint.iacr.org/2016/263.pdf)
-  - [BulletProofLib](https://github.com/bbuenz/BulletProofLib) - Java implementation (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
-  - [secp256k1-zkp (experimental)](https://github.com/ElementsProject/secp256k1-zkp/pull/16) - C implementation on secp256k1 (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
-  - [dalek-cryptography/bulletproofs](https://github.com/dalek-cryptography/bulletproofs) - Rust implementation using Ristretto on Curve25519 (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach) ([notes](https://doc-internal.dalek.rs/bulletproofs/notes/index.html))
-  - [adjoint-io/bulletproofs](https://github.com/adjoint-io/bulletproofs) - Haskell implementation on secp256k1 (implements [Bulletproofs [BBBPWM17]](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf) approach)
+- [BBBPWM17]
+  - [BulletProofLib](https://github.com/bbuenz/BulletProofLib) - Java implementation
+  - [secp256k1-zkp (experimental)](https://github.com/ElementsProject/secp256k1-zkp/pull/16) - C implementation on secp256k1
 - Picnic
   - [Reference implementation](https://github.com/Microsoft/Picnic)
   - [Optimized implementation](https://github.com/IAIK/Picnic)
-- [libSTARK](https://github.com/elibensasson/libSTARK)
-  - [zk-STARKs [BBHR18]](https://eprint.iacr.org/2018/046)
 - [emmy](https://github.com/xlab-si/emmy)
   - ZKP primitives for [Camenisch-Lysyanskaya anonymous credentials](https://eprint.iacr.org/2001/019.pdf)
   - Camenisch-Lysyanskaya anonymous credentials (work in progress)
   - client-server (prover-verifier) communication based on Protobuffers and gRPC
 - [VC](https://archive.codeplex.com/?p=vc) implementation accompanying the [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf) and [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976) papers
-- [DIZK](https://github.com/scipr-lab/dizk) - Java library for distributed zero knowledge proof systems
-  - [[WZCPS18]](https://eprint.iacr.org/2018/691) (distributed implementation of [[Groth16]](https://eprint.iacr.org/2016/260.pdf))
-  - Enables zkSNARK computations of up to billions of logical gates (100x larger than prior art) at a cost of 10μs per gate (100x faster than prior art)
-  - Implements distributed polynomial evaluation/interpolation, distributed Lagrange polynomial computations, and distributed multi-scalar multiplication
-- [snarkjs](https://github.com/iden3/snarkjs) - JavaScript library for zk-SNARK proofs
-  - [[GGPR13]](https://eprint.iacr.org/2013/279.pdf) (implements [[BCTV14a]](http://eprint.iacr.org/2013/879) approach)
-  - [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
 - [ZEXE](https://github.com/scipr-lab/zexe) - a Rust library for decentralized private computation
   - [[GM17]](https://eprint.iacr.org/2017/540.pdf)
-- [websnark](https://github.com/iden3/websnark) - A fast zkSnark proof generator written in native Web Assembly.
 
 ## Generating structured reference strings
 Some proving systems require a structured reference string (SRS). The following works discuss secure SRS generation.
 - [[BCGTV15]](https://ieeexplore.ieee.org/document/7163032/) - MPC for generating the SRS for [[PGHR13]](https://eprint.iacr.org/2013/279.pdf)/[[BCGTV13]](https://eprint.iacr.org/2013/507)
 - [[BGG17]](https://eprint.iacr.org/2017/602) - improved MPC for generating the SRS for [[PGHR13]](https://eprint.iacr.org/2013/279.pdf)/[[BCGTV13]](https://eprint.iacr.org/2013/507)
-- [[BGM18]](https://eprint.iacr.org/2017/1050) - "Powers of Tau" protocol for scalable generation of structured reference string for [[Groth16]](https://eprint.iacr.org/2016/260.pdf)
+- [[BGM18]](https://eprint.iacr.org/2017/1050) - "Powers of Tau" protocol for scalable generation of structured reference string for [Groth16]
 
 ## Low-level libraries/languages for writing circuits
 
@@ -104,7 +119,7 @@ Some proving systems require a structured reference string (SRS). The following 
   - [Pinocchio toolchain](https://archive.codeplex.com/?p=vc) - Python implementation
 - [Pantry [BFRSBW13]](https://arifeldman.com/pub/pantry-sosp13.pdf)
 - [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976)
-- [TinyRAM [BCGTV13]](https://eprint.iacr.org/2013/507), [vnTinyRAM [BCTV14a]](http://eprint.iacr.org/2013/879) and [scalable TinyRAM [BCTV14b]](https://eprint.iacr.org/2014/595)
+- [TinyRAM [BCGTV13]](https://eprint.iacr.org/2013/507), vnTinyRAM ([BCTV14a]) and scalable TinyRAM ([BCTV14b])
 - [Buffet [WSRBW15]](https://cs.nyu.edu/~mwalfish/papers/buffet-ndss15.pdf)
 - [C0C0 [KZMQCPPSS15]](https://eprint.iacr.org/2015/1093)
 - [Pequin](https://github.com/pepper-project/pequin) - Toolchain to verifiably execute programs expressed in (a large subset of) C,  backed by libsnark.
