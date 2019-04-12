@@ -17,44 +17,66 @@
   - [Succinct Non-Interactive ZK [M94]](https://projecteuclid.org/download/pdf_1/euclid.lnl/1235415908)
   - ["SNARK" terminology and characterization of existence [BCCT11]](https://eprint.iacr.org/2011/443)
   - [Succinct NIZK without the PCP Theorem [Groth10]](http://www0.cs.ucl.ac.uk/staff/J.Groth/ShortNIZK.pdf)
-  - [Succinct NIZK without PCP Theorem & Quasi-linear prover time [GGPR13]](https://eprint.iacr.org/2012/215.pdf)
+  - Succinct NIZK without PCP Theorem & Quasi-linear prover time ([GGPR13])
 
 ## Recent Zero-Knowledge proving systems
 
-- [[GGPR13]](https://eprint.iacr.org/2012/215)
-  - [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
-  - [[BCGTV13]](https://eprint.iacr.org/2013/507)
-  - [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976)
+- [GGPR13]
+  - Pinocchio ([PGHR13])
+  - [BCGTV13]
+  - Geppetto ([CFHKKNPZ14])
   - [BCTV14a]
 - [BCTV14b]
-  - [Coda [MS18]](https://codaprotocol.com/static/coda-whitepaper-05-10-2018-0.pdf)
+  - Coda ([MS18])
 - [CTV15]
-- [ZKBoo [GMO16]](https://eprint.iacr.org/2016/163.pdf)
+- ZKBoo ([GMO16])
 - [Groth16]
-  - [[GM17]](https://eprint.iacr.org/2017/540.pdf)
-  - [[BG18]](https://eprint.iacr.org/2018/187)
+  - [GM17]
+  - [BG18]
   - DIZK ([WZCPS18])
     - Distributed implementation of [Groth16]
     - Enables zkSNARK computations of up to billions of logical gates (100x larger than prior art) at a cost of 10μs per gate (100x faster than prior art)
     - Implements distributed polynomial evaluation/interpolation, distributed Lagrange polynomial computations, and distributed multi-scalar multiplication
-- [[BCCGP16]](https://eprint.iacr.org/2016/263.pdf)
+- [BCCGP16]
   - Bulletproofs ([BBBPWM17])
-- [Hybrid Interactive ZK [CCM16]](https://eprint.iacr.org/2016/583)
-- [ZKB++ / Picnic [CDGORRSZ17]](https://eprint.iacr.org/2017/279.pdf)
-- [Ligero [AHIV17]](https://acmccs.github.io/papers/p2087-amesA.pdf)
-- [Hyrax [WTSTW17]](https://eprint.iacr.org/2017/1132.pdf)
+- Hybrid Interactive ZK ([CCM16])
+- ZKB++ / Picnic ([CDGORRSZ17])
+- Ligero ([AHIV17])
+- Hyrax ([WTSTW17])
 - zk-STARKs ([BBHR18])
-- [Updatable Universal CRSs [GKMMM18]](https://eprint.iacr.org/2018/280)
-- [Hybrid NIZK [ACM18]](https://eprint.iacr.org/2018/557)
-- [Aurora [BCRSVW18]](https://eprint.iacr.org/2018/828.pdf)
+- Updatable Universal CRSs ([GKMMM18])
+- Hybrid NIZK ([ACM18])
+- Aurora ([BCRSVW18])
 
+[GGPR13]: https://eprint.iacr.org/2012/215
+[PGHR13]: https://eprint.iacr.org/2013/279.pdf
+[BCGTV13]: https://eprint.iacr.org/2013/507
+[CFHKKNPZ14]: https://eprint.iacr.org/2014/976
 [BCTV14a]: http://eprint.iacr.org/2013/879
+
 [BCTV14b]: https://eprint.iacr.org/2014/595
+[MS18]: https://codaprotocol.com/static/coda-whitepaper-05-10-2018-0.pdf
+
 [CTV15]: https://eprint.iacr.org/2015/377
+
+[GMO16]: https://eprint.iacr.org/2016/163.pdf
+
 [Groth16]: https://eprint.iacr.org/2016/260.pdf
-[BBBPWM17]: https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf
-[BBHR18]: https://eprint.iacr.org/2018/046
+[GM17]: https://eprint.iacr.org/2017/540.pdf
+[BG18]: https://eprint.iacr.org/2018/187
 [WZCPS18]: https://eprint.iacr.org/2018/691
+
+[BCCGP16]: https://eprint.iacr.org/2016/263.pdf
+[BBBPWM17]: https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf
+
+[CCM16]: https://eprint.iacr.org/2016/583
+[CDGORRSZ17]: https://eprint.iacr.org/2017/279.pdf
+[AHIV17]: https://acmccs.github.io/papers/p2087-amesA.pdf
+[WTSTW17]: https://eprint.iacr.org/2017/1132.pdf
+[BBHR18]: https://eprint.iacr.org/2018/046
+[GKMMM18]: https://eprint.iacr.org/2018/280
+[ACM18]: https://eprint.iacr.org/2018/557
+[BCRSVW18]: https://eprint.iacr.org/2018/828.pdf
 
 ## Implementations of proving systems
 
@@ -92,14 +114,14 @@ Other implementations:
   - ZKP primitives for [Camenisch-Lysyanskaya anonymous credentials](https://eprint.iacr.org/2001/019.pdf)
   - Camenisch-Lysyanskaya anonymous credentials (work in progress)
   - client-server (prover-verifier) communication based on Protobuffers and gRPC
-- [VC](https://archive.codeplex.com/?p=vc) implementation accompanying the [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf) and [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976) papers
+- [VC](https://archive.codeplex.com/?p=vc) implementation accompanying the Pinocchio ([PGHR13]) and Geppetto ([CFHKKNPZ14]) papers
 - [ZEXE](https://github.com/scipr-lab/zexe) - a Rust library for decentralized private computation
-  - [[GM17]](https://eprint.iacr.org/2017/540.pdf)
+  - [GM17]
 
 ## Generating structured reference strings
 Some proving systems require a structured reference string (SRS). The following works discuss secure SRS generation.
-- [[BCGTV15]](https://ieeexplore.ieee.org/document/7163032/) - MPC for generating the SRS for [[PGHR13]](https://eprint.iacr.org/2013/279.pdf)/[[BCGTV13]](https://eprint.iacr.org/2013/507)
-- [[BGG17]](https://eprint.iacr.org/2017/602) - improved MPC for generating the SRS for [[PGHR13]](https://eprint.iacr.org/2013/279.pdf)/[[BCGTV13]](https://eprint.iacr.org/2013/507)
+- [[BCGTV15]](https://ieeexplore.ieee.org/document/7163032/) - MPC for generating the SRS for [PGHR13]/[BCGTV13]
+- [[BGG17]](https://eprint.iacr.org/2017/602) - improved MPC for generating the SRS for [PGHR13]/[BCGTV13]
 - [[BGM18]](https://eprint.iacr.org/2017/1050) - "Powers of Tau" protocol for scalable generation of structured reference string for [Groth16]
 
 ## Low-level libraries/languages for writing circuits
@@ -115,11 +137,11 @@ Some proving systems require a structured reference string (SRS). The following 
 ## General-purpose compilers from high-level languages
 - [ZKPDL [MEKHL10]](https://www.usenix.org/legacy/event/sec10/tech/full_papers/Meiklejohn.pdf)
   - [Cashlib](https://github.com/brownie/cashlib) - C++ implementation
-- [Pinocchio [PGHR13]](https://eprint.iacr.org/2013/279.pdf)
+- Pinocchio ([PGHR13])
   - [Pinocchio toolchain](https://archive.codeplex.com/?p=vc) - Python implementation
 - [Pantry [BFRSBW13]](https://arifeldman.com/pub/pantry-sosp13.pdf)
-- [Geppetto [CFHKKNPZ14]](https://eprint.iacr.org/2014/976)
-- [TinyRAM [BCGTV13]](https://eprint.iacr.org/2013/507), vnTinyRAM ([BCTV14a]) and scalable TinyRAM ([BCTV14b])
+- Geppetto ([CFHKKNPZ14])
+- TinyRAM ([BCGTV13]), vnTinyRAM ([BCTV14a]) and scalable TinyRAM ([BCTV14b])
 - [Buffet [WSRBW15]](https://cs.nyu.edu/~mwalfish/papers/buffet-ndss15.pdf)
 - [C0C0 [KZMQCPPSS15]](https://eprint.iacr.org/2015/1093)
 - [Pequin](https://github.com/pepper-project/pequin) - Toolchain to verifiably execute programs expressed in (a large subset of) C,  backed by libsnark.
