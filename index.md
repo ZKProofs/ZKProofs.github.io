@@ -45,8 +45,10 @@
 - Hyrax ([WTSTW17])
 - zk-STARKs ([BBHR18])
 - Updatable Universal CRSs ([GKMMM18])
+  - Sonic ([MBKM19])
 - Hybrid NIZK ([ACM18])
 - Aurora ([BCRSVW18])
+- Libra ([XZZPS19])
 
 [GGPR13]: https://eprint.iacr.org/2012/215
 [PGHR13]: https://eprint.iacr.org/2013/279.pdf
@@ -75,8 +77,10 @@
 [WTSTW17]: https://eprint.iacr.org/2017/1132.pdf
 [BBHR18]: https://eprint.iacr.org/2018/046
 [GKMMM18]: https://eprint.iacr.org/2018/280
+[MBKM19]: https://eprint.iacr.org/2019/099
 [ACM18]: https://eprint.iacr.org/2018/557
 [BCRSVW18]: https://eprint.iacr.org/2018/828.pdf
+[XZZPS19]: https://eprint.iacr.org/2019/317
 
 ## Implementations of proving systems
 
