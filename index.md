@@ -140,6 +140,7 @@ Some proving systems require a structured reference string (SRS). The following 
 | [Circom]    | Typed JS | JavaScript    | snarkjs   | Language for writing R1CS SNARKs |
 | [Circomlib] | Typed JS | JavaScript    |           | Library of basic circuits for Circom |
 | [ZEXE]'s snark-gadgets |      | Rust   | ZEXE      | Module for building circuits, comes with pre-built algebra circuits |
+| [ZkVM]      |          | Rust   | bulletproofs | Language for writing confidential smart contracts that create Bulletproofs R1CS proofs |
 
 [sapling-crypto]: https://github.com/zcash/librustzcash/tree/master/sapling-crypto/src/circuit
 [jsnark]: https://github.com/akosba/jsnark
@@ -148,6 +149,7 @@ Some proving systems require a structured reference string (SRS). The following 
 [Circom]: https://github.com/iden3/circom
 [Circomlib]: https://github.com/iden3/circomlib
 [ZEXE]: https://github.com/scipr-lab/zexe
+[ZkVM]: https://github.com/interstellar/slingshot/tree/main/zkvm
 
 ## General-purpose compilers from high-level languages
 - [ZKPDL [MEKHL10]](https://www.usenix.org/legacy/event/sec10/tech/full_papers/Meiklejohn.pdf)
@@ -178,6 +180,8 @@ Some proving systems require a structured reference string (SRS). The following 
 - [Zcash Sapling](https://github.com/zcash/zips/blob/master/protocol/sapling.pdf)
   - [Rust implementation over BLS12-381 using bellman](https://github.com/zcash-hackworks/sapling-crypto)
 - [Zexe [BCGMMW2018]](https://eprint.iacr.org/2018/962.pdf)
+- [Spacesuit](https://github.com/interstellar/slingshot/tree/main/spacesuit)
+  - Rust implementation of the [Cloak](https://github.com/interstellar/slingshot/blob/main/spacesuit/spec.md) confidential assets protocol using Bulletproofs.
 
 
 ## Circuit optimization
