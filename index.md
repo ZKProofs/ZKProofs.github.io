@@ -47,6 +47,8 @@
 - Updatable Universal CRSs ([GKMMM18])
 - Hybrid NIZK ([ACM18])
 - Aurora ([BCRSVW18])
+- Sonics  ([SONICS])
+- Spartan  ([SPARTAN])
 
 [GGPR13]: https://eprint.iacr.org/2012/215
 [PGHR13]: https://eprint.iacr.org/2013/279.pdf
@@ -77,6 +79,11 @@
 [GKMMM18]: https://eprint.iacr.org/2018/280
 [ACM18]: https://eprint.iacr.org/2018/557
 [BCRSVW18]: https://eprint.iacr.org/2018/828.pdf
+[SONICS]: https://eprint.iacr.org/2019/099.pdf
+[SPARTAN]: https://eprint.iacr.org/2019/550.pdf
+
+
+
 
 ## Implementations of proving systems
 
