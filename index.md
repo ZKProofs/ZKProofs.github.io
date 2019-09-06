@@ -141,7 +141,7 @@ Some proving systems require a structured reference string (SRS). The following 
 | [Circomlib] | Typed JS | JavaScript    |           | Library of basic circuits for Circom |
 | [ZEXE]'s snark-gadgets |      | Rust   | ZEXE      | Module for building circuits, comes with pre-built algebra circuits |
 | [ZkVM]      |          | Rust   | bulletproofs | Language for writing confidential smart contracts that create Bulletproofs R1CS proofs |
-| [r1cs]      |          | Rust          |           | Library for building R1CS gadgets |
+| [r1cs]      |          | Rust          | bellman   | Library for building R1CS gadgets |
 
 [sapling-crypto]: https://github.com/zcash/librustzcash/tree/master/sapling-crypto/src/circuit
 [jsnark]: https://github.com/akosba/jsnark
