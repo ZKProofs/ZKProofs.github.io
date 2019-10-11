@@ -145,6 +145,7 @@ Some proving systems require a structured reference string (SRS). The following 
 | [Circomlib] | Typed JS | JavaScript    |           | Library of basic circuits for Circom |
 | [ZEXE]'s snark-gadgets |      | Rust   | ZEXE      | Module for building circuits, comes with pre-built algebra circuits |
 | [ZkVM]      |          | Rust   | bulletproofs | Language for writing confidential smart contracts that create Bulletproofs R1CS proofs |
+| [PySNARK]   | Python runtime  | Python | libsnark, snarkjs | Runtime for running zk-SNARKS directly from Python |
 
 [sapling-crypto]: https://github.com/zcash/librustzcash/tree/master/sapling-crypto/src/circuit
 [jsnark]: https://github.com/akosba/jsnark
@@ -154,6 +155,7 @@ Some proving systems require a structured reference string (SRS). The following 
 [Circomlib]: https://github.com/iden3/circomlib
 [ZEXE]: https://github.com/scipr-lab/zexe
 [ZkVM]: https://github.com/interstellar/slingshot/tree/main/zkvm
+[PySNARK]: https://github.com/meilof/pysnark
 
 ## General-purpose compilers from high-level languages
 - [ZKPDL [MEKHL10]](https://www.usenix.org/legacy/event/sec10/tech/full_papers/Meiklejohn.pdf)
