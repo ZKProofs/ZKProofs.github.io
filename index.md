@@ -81,6 +81,9 @@
 [ACM18]: https://eprint.iacr.org/2018/557
 [BCRSVW18]: https://eprint.iacr.org/2018/828.pdf
 [XZZPS19]: https://eprint.iacr.org/2019/317
+[PS17]: https://eprint.iacr.org/2017/1197
+[CDL16]: https://eprint.iacr.org/2016/663.pdf
+[SBBMD18]: https://arxiv.org/pdf/1802.07344.pdf
 
 ## Implementations of proving systems
 
@@ -93,6 +96,7 @@
 | [DIZK]                    | Java        | BN254        | [Groth16]  |
 | [snarkjs]                 | JavaScript  | BN254        | [Groth16], [BCTV14a] |
 | [websnark]                | WebAssembly | BN254        | [Groth16]  |
+| [Hyperledger Ursa]        | Rust        | BN254,BLS12-381| [Groth16], [BBBPWM17], [PS17], [CDL16], [SBBMD18] |
 
 [libsnark]: https://github.com/scipr-lab/libsnark
 [bellman]: https://github.com/zkcrypto/bellman
@@ -102,6 +106,7 @@
 [DIZK]: https://github.com/scipr-lab/dizk
 [snarkjs]: https://github.com/iden3/snarkjs
 [websnark]: https://github.com/iden3/websnark
+[Hyperledger Ursa]: https://github.com/hyperledger/ursa
 
 Other implementations:
 
