@@ -93,6 +93,7 @@
 | [DIZK]                    | Java        | BN254        | [Groth16]  |
 | [snarkjs]                 | JavaScript  | BN254        | [Groth16], [BCTV14a] |
 | [websnark]                | WebAssembly | BN254        | [Groth16]  |
+| [gnark]                   | Go          | BN254,BLS12-381, BLS12-377| [Groth16]  |
 
 [libsnark]: https://github.com/scipr-lab/libsnark
 [bellman]: https://github.com/zkcrypto/bellman
@@ -102,6 +103,7 @@
 [DIZK]: https://github.com/scipr-lab/dizk
 [snarkjs]: https://github.com/iden3/snarkjs
 [websnark]: https://github.com/iden3/websnark
+[gnark]: https://github.com/consensys/gnark
 
 Other implementations:
 
@@ -138,6 +140,7 @@ Some proving systems require a structured reference string (SRS). The following 
 |-------------|----------|---------------|-----------|-------------|
 | [libsnark]'s gadgetlib1/2 |     | C++  | libsnark  | Libraries for building circuits for preprocessing zk-SNARKs |
 | [bellman]   |          | Rust          | bellman   | Library for building circuits; various gadgets in [sapling-crypto] |
+| [gnark]     |          | Go            | gnark     | Library for building circuits |
 | [jsnark]    |          | Java          | libsnark  | Library for building circuits for preprocessing zk-SNARKs |
 | [ZoKrates]  | Python subset  | Rust    | libsnark, bellman | Toolbox for zk-SNARKs on Ethereum |
 | [Snarky]    | Embedded OCaml | OCaml   | libsnark  | Front-end for writing R1CS SNARKs |
