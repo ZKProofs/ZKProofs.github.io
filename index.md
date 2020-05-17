@@ -49,6 +49,9 @@
 - Hybrid NIZK ([ACM18])
 - Aurora ([BCRSVW18])
 - Libra ([XZZPS19])
+- Marlin ([CHMMVW19])
+- Plonk ([GWC19])
+- SuperSonic ([BFS19])
 
 [GGPR13]: https://eprint.iacr.org/2012/215
 [PGHR13]: https://eprint.iacr.org/2013/279.pdf
@@ -81,6 +84,9 @@
 [ACM18]: https://eprint.iacr.org/2018/557
 [BCRSVW18]: https://eprint.iacr.org/2018/828.pdf
 [XZZPS19]: https://eprint.iacr.org/2019/317
+[CHMMVW19]: https://eprint.iacr.org/2019/1047.pdf
+[GWC19]: https://eprint.iacr.org/2019/953.pdf
+[BFS19]: https://eprint.iacr.org/2019/1229.pdf
 
 ## Implementations of proving systems
 
