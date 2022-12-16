@@ -10,7 +10,7 @@
 ## History of Zero-knowledge proofs
 
 - Invention of zero-knowledge
-  - [Zero-Knowledge Proofs [GMR85]](http://groups.csail.mit.edu/cis/crypto/classes/6.876/papers/gmr-ZK.pdf)
+  - [Zero-Knowledge Proofs [GMR85]](https://dl.acm.org/doi/10.1145/22145.22178)
   - [Non-Interactive ZK [BFM88]](https://dl.acm.org/citation.cfm?id=62222)
 - Important landmarks for zk-SNARKs
   - [Succinct ZK[K92]](http://people.csail.mit.edu/vinodv/6892-Fall2013/efficientargs.pdf)
