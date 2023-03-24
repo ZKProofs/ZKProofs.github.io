@@ -193,6 +193,14 @@ Some proving systems require a structured reference string (SRS). The following 
 - [Daira Hopwood's notes from Zcon0](https://docs.google.com/document/d/1aZ1GUAJOBFuqD4GOo9HqAH8w4xJo7HM4Bjte5-wkdnU)
 
 
+## The languages and frameworks for creating and verifying ZKPs
+- [Noir](https://aztec.network/noir/)
+- [Leo](https://leo-lang.org/)
+- [Cairo](https://www.cairo-lang.org/)
+- [Sismo](https://www.sismo.io/)
+- [Circom](https://iden3.io/circom)
+
+
 ## Standardization efforts
 
 - [Zero Knowledge Proof Standardization](https://zkproof.org/) and [1st Workshop](https://zkproof.org/standards_meetings.html)
