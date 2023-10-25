@@ -201,7 +201,7 @@ Some proving systems require a structured reference string (SRS). The following 
 
 ## So are they fast yet?
 
-Stay tuned! 😁
+- [ZK Bench](https://zkbench.dev) — Impartial benchmarks for your favorite ZK frameworks
 
 ## Improve this page
 
